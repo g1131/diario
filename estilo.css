@@ -9,10 +9,10 @@ main{
 body{
     font-size: 18px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background-color: #C7D3BF;
+    background-color: #FFFAE2;
 }
 #area-cabecalho{
-    background-color: #807182;
+    background-color: #FEFCAD;
     padding: 15px;
     text-align: center;
 }
@@ -21,20 +21,20 @@ a{
     text-decoration: none;
 }
 a:visited{
-    color: #FFC9B5;
+    color: #4e5140;
 }
 a:hover{
     text-decoration: underline;
 }
 h1{
-    color: #F7B1AB;
+    color: #4e5140;
     font-size: 60px;
 }
 .navbar{
     flex-direction: row-reverse;
     justify-self: flex-start;
 }
-li{
+.navbar li{
     display: inline;
     margin: 7px;
 }
@@ -42,7 +42,6 @@ li{
     display:inline-flex;
     align-content: space-around;
     flex-direction: row;
-    justify-content: space-between;
 }
 .container{
     display: flex;
@@ -54,12 +53,15 @@ li{
     margin-top: 20px;
     margin-right: 100px;
     margin-left: 108px;
+    flex-wrap: wrap;
 }
 .item2{
+
     font-size: 15px;
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 20px;
+    flex-wrap: wrap;
 }
 p{
     padding-right: 70px;
@@ -67,6 +69,15 @@ p{
     text-align: justify;
 }
 footer{
-    padding-top: 55px;
-    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FEFCAD;
+    color: #4e5140;
+    text-align: center;
+}
+.links{
+    padding-bottom: 15px;
+    align-self: space-around;
 }
