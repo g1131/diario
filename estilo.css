@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+main{
+    display:inline-flex;
+}
+body{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #C7D3BF;
+}
+#area-cabecalho{
+    background-color: #807182;
+    padding: 15px;
+    text-align: center;
+}
+a{
+    color: #e6e6e6;
+    text-decoration: none;
+}
+a:visited{
+    color: #FFC9B5;
+}
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color: #F7B1AB;
+    font-size: 60px;
+}
+.navbar{
+    flex-direction: row-reverse;
+    justify-self: flex-start;
+}
+li{
+    display: inline;
+    margin: 7px;
+}
+.viagens{
+    display:inline-flex;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.item1{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 108px;
+}
+.item2{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+p{
+    padding-right: 70px;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+footer{
+    padding-top: 55px;
+    font-size: 12px;
+}
