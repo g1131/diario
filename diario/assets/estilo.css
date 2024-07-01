@@ -75,6 +75,7 @@ img {
     margin-right: 100px;
     margin-left: 108px;
     flex-wrap: wrap;
+    color: #242424;
 }
 .item2{
     font-size: 14px;
@@ -82,6 +83,7 @@ img {
     margin-left: 100px;
     margin-right: 210px;
     flex-wrap: wrap;
+    color: #242424;
 }
 p{
     flex-wrap: wrap;
