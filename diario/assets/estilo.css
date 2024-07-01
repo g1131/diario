@@ -93,4 +93,7 @@ p{
     padding-bottom: 15px;
     align-self: space-around;
 }
+img.arredondado {
+    border-radius: 15px;
+  }
 
